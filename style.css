@@ -2,6 +2,13 @@ table {
     border: solid 1px black;
 }
 
-#divisao {
-    float: right;
+#visor {
+    width: 108.04px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.visor {
+    padding: 0px;
+    margin: 0px;
 }
