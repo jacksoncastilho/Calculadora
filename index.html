@@ -18,34 +18,38 @@
         </tr>
 
         <tr id="linha1">
-            <!-- <td></td>
+            <td>
+                <button id="resetAC">AC</button>
+            </td>
+            <td>
+                <button id="resetC">C</button>
+            </td>
             <td></td>
-            <td></td>
-            <td><button id="divisao">%</button></td> -->
+            <td><button id="divisao" class="operador" data-ops="divisao">%</button></td>
         </tr>
         <tr id="linha2">
             <td><button class="numero" id="sete" data-num="7">7</button></td>
             <td><button class="numero" id="oito" data-num="8">8</button></td>
             <td><button class="numero" id="nove" data-num="9">9</button></td>
-            <td><button class="operacao" id="multiplicacao">x</button></td>
+            <td><button class="operador" data-ops="multiplicacao" id="multiplicacao">x</button></td>
         </tr>
         <tr id="linha3">
             <td><button class="numero" id="quatro" data-num="4">4</button></td>
             <td><button class="numero" id="cinco" data-num="5">5</button></td>
             <td><button class="numero" id="seis" data-num="6">6</button></td>
-            <td><button class="operacao" id="subtracao">-</button></td>
+            <td><button class="operador" data-ops="subtracao" id="subtracao">-</button></td>
         </tr>
         <tr id="linha4">
             <td><button class="numero" id="um" data-num="1">1</button></td>
             <td><button class="numero" id="dois" data-num="2">2</button></td>
             <td><button class="numero" id="tres" data-num="3">3</button></td>
-            <td><button class="operacao" id="soma">+</button></td>
+            <td><button class="operador" data-ops="soma" id="soma">+</button></td>
         </tr>
         <tr id="linha5">
             <td><button data-num=""></button></td>
-            <td><button class="numero" id="zero" data-num="">0</button></td>
+            <td><button class="numero" id="zero" data-num="0">0</button></td>
             <td><button data-num=""></button></td>
-            <td><button id="igual">=</button></td>
+            <td><button id="igual" data-result="">=</button></td>
         </tr>
     </table>
 </body>
